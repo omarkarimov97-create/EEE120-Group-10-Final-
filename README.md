@@ -118,7 +118,7 @@ All generated content was reviewed, tested, and modified by the team.
 - Eligible
 - Conditional
 - Not Eligible
-- 
+
 ## Team Members and Roles
 - Omar Karimov – Python Developer + CircuitVerse Designer
 - ABDUAZIM DJAMILOV – Logic Designer
