@@ -70,7 +70,7 @@ This project demonstrates how digital logic design can be implemented both in ha
 ![Truth](truth_table.jpg)
 
 ## Demo Video
-
+https://youtu.be/LWC9zBQvzog
 
 ## Python Code
 
