@@ -62,3 +62,6 @@ This project demonstrates how digital logic design can be implemented both in ha
 
 ## Truth Table
 [Truth Table](TruthTable.jpg)
+
+## Demo Video
+https://youtu.be/8zHQRXcrgD8
