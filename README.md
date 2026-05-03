@@ -64,7 +64,7 @@ This project demonstrates how digital logic design can be implemented both in ha
 ![Circuit](сircuit.png)
 
 ## Python Output
-![Python](python_output.png))
+![Python](python_output.png)
 
 ## Truth Table
 ![Truth](truth_table.jpg)
