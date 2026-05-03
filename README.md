@@ -24,8 +24,37 @@ The system is demonstrated using:
 - Python simulation
 
 ## Circuit Link
-
+https://circuitverse.org/users/426416/projects/final-group-10
 
 ## Example
 Input: A=1, B=1, C=1, W=0  
 Output: Eligible
+
+## Boolean Expression
+Eligible = A AND B AND C AND (NOT D)
+
+## How to Run
+1. Open main.py
+2. Run the program
+3. Change values of A, B, C, D to test different cases
+
+## Example
+Input:
+A = True
+B = True
+C = True
+D = False
+
+Output:
+Eligible = True
+Conditional = False
+Not Eligible = False
+
+## Conclusion
+This project demonstrates how digital logic design can be implemented both in hardware (CircuitVerse) and software (Python), producing identical results.
+
+## Circuit Design
+[Circuit](circuit.png)
+
+## Python Output
+[Python](python_output.png)
