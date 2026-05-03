@@ -1,6 +1,10 @@
 EEE120-Group-10-Final-
 Final project for EEE120: Digital circuit and Python system to check exam eligibility
 # EEE120 Final Project – Eligibility System
+GROUP MEMBERS: ABDUAZIM DJAMILOV
+OMAR KARIMOV 
+JAFARBEK NAZAROV 
+SOBIROV SUXROB​
 
 ## Description
 This project implements a digital logic system to determine student eligibility.
@@ -12,7 +16,9 @@ The system checks:
 - Academic Warning (W)
 
 ## Logic
-Eligible = (A AND B AND C) AND (NOT W)
+Eligible = (A AND B AND C) AND (NOT D)
+Conditional = if only one condition is missing
+Not Eligible = if more than one condition is missing
 
 ## Python Extension
 The Python version adds:
@@ -54,14 +60,63 @@ Not Eligible = False
 This project demonstrates how digital logic design can be implemented both in hardware (CircuitVerse) and software (Python), producing identical results.
 
 ## Circuit Design
-[Circuit](CircuitDesign.png)
+![Circuit](Circuit Design.png)
 
 ## Python Output
-[Python](Python_output.png)
-[Python Code](Pythoncode.png)
+![Output](Python output.png)
 
 ## Truth Table
-[Truth Table](TruthTable.jpg)
+![Truth](Truth Table.jpg)
 
 ## Demo Video
 https://youtu.be/8zHQRXcrgD8
+
+## Python Code
+
+```python
+def check_eligibility(A, B, C, D):
+
+    # Eligible
+    eligible = A and B and C and (not D)
+
+    # Conditional
+    cond1 = (not A) and B and C and (not D)
+    cond2 = A and (not B) and C and (not D)
+    cond3 = A and B and (not C) and (not D)
+    cond4 = A and B and C and D
+
+    conditional = cond1 or cond2 or cond3 or cond4
+
+    # Not Eligible
+    not_eligible = not (eligible or conditional)
+
+    return eligible, conditional, not_eligible
+
+
+# Test
+A = True   # Attendance
+B = True   # Assignments
+C = True   # Fees
+D = False  # Warning
+
+e, c, n = check_eligibility(A, B, C, D)
+
+print("Eligible:", e)
+print("Conditional:", c)
+print("Not Eligible:", n)
+```
+
+## AI Usage
+AI tools were used to help generate and understand the logic and Python implementation. 
+All generated content was reviewed, tested, and modified by the team.
+
+## Outputs
+- Eligible
+- Conditional
+- Not Eligible
+- 
+## Team Members and Roles
+- Omar Karimov – Python Developer
+- ] – Logic Designer
+- [] – CircuitVerse Designer
+- [] – Documentation / Presentation
