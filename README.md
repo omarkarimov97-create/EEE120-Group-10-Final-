@@ -1,7 +1,8 @@
 EEE120-Group-10-Final-
 Final project for EEE120: Digital circuit and Python system to check exam eligibility
 # EEE120 Final Project – Eligibility System
-GROUP MEMBERS: ABDUAZIM DJAMILOV
+GROUP MEMBERS: 
+ABDUAZIM DJAMILOV
 OMAR KARIMOV 
 JAFARBEK NAZAROV 
 SOBIROV SUXROB​
@@ -46,10 +47,10 @@ Eligible = A AND B AND C AND (NOT D)
 
 ## Example
 Input:
-A = True
-B = True
-C = True
-D = False
+A = 1
+B = 1
+C = 1
+D = 0
 
 Output:
 Eligible = True
@@ -63,23 +64,22 @@ This project demonstrates how digital logic design can be implemented both in ha
 ![Circuit](сircuit.png)
 
 ## Python Output
-![Output](python_output.png)
+
 
 ## Truth Table
 ![Truth](truth_table.jpg)
 
 ## Demo Video
-https://youtu.be/8zHQRXcrgD8
+
 
 ## Python Code
 
 ```python
 def check_eligibility(A, B, C, D):
-
     # Eligible
     eligible = A and B and C and (not D)
 
-    # Conditional
+    # Conditional 
     cond1 = (not A) and B and C and (not D)
     cond2 = A and (not B) and C and (not D)
     cond3 = A and B and (not C) and (not D)
@@ -94,10 +94,14 @@ def check_eligibility(A, B, C, D):
 
 
 # Test
-A = True   # Attendance
-B = True   # Assignments
-C = True   # Fees
-D = False  # Warning
+def get_input(name):
+    value = input(f"{name} (1 = Yes, 0 = No): ")
+    return value == "1"
+
+A = get_input("Attendance")
+B = get_input("Assignments")
+C = get_input("Fees")
+D = get_input("Warning")
 
 e, c, n = check_eligibility(A, B, C, D)
 
@@ -116,7 +120,11 @@ All generated content was reviewed, tested, and modified by the team.
 - Not Eligible
 - 
 ## Team Members and Roles
-- Omar Karimov – Python Developer
-- ] – Logic Designer
-- [] – CircuitVerse Designer
-- [] – Documentation / Presentation
+- Omar Karimov – Python Developer + CircuitVerse Designer
+- ABDUAZIM DJAMILOV – Logic Designer
+- JAFARBEK NAZAROV and SOBIROV SUXROB – Documentation / Presentation
+
+## Future Improvements
+- Add a graphical user interface (GUI)
+- Include more academic parameters (e.g., midterm scores)
+- Connect the system to a real database
