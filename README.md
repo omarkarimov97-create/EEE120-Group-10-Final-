@@ -61,7 +61,7 @@ Not Eligible = False
 This project demonstrates how digital logic design can be implemented both in hardware (CircuitVerse) and software (Python), producing identical results.
 
 ## Circuit Design
-![Circuit](сircuit.png)
+![Circuit]()
 
 ## Python Output
 ![Python](python_output.png)
@@ -70,7 +70,7 @@ This project demonstrates how digital logic design can be implemented both in ha
 ![Truth](truth_table.jpg)
 
 ## Demo Video
-https://youtu.be/LWC9zBQvzog
+
 
 ## Python Code
 
