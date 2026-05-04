@@ -23,7 +23,7 @@ Not Eligible = if more than one condition is missing
 
 ## Python Extension
 The Python version adds:
-- Conditionally Eligible (if 2 out of 3 conditions are met)
+- Conditionally Eligible (if 2 out of 4 conditions are met)
 
 ## Demo
 The system is demonstrated using:
