@@ -25,11 +25,10 @@ Not Eligible = if more than one condition is missing
 The Python version adds:
 - Conditionally Eligible (if 2 out of 4 conditions are met)
 
-## Demo
+## Demo video
 The system is demonstrated using:
 - Digital circuit (CircuitVerse)
-- Python simulation
-
+- 
 ## Circuit Link
 https://circuitverse.org/simulator/final-group-10-1f3d5891-95b2-48cf-a142-a93bf1d0a943
 
