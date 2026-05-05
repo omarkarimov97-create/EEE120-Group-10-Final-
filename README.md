@@ -31,7 +31,7 @@ The system is demonstrated using:
 - Python simulation
 
 ## Circuit Link
-https://circuitverse.org/users/426416/projects/final-group-10
+
 
 ## Example
 Input: A=1, B=1, C=1, W=0  
