@@ -28,7 +28,7 @@ The Python version adds:
 ## Demo video
 The system is demonstrated using:
 - Digital circuit (CircuitVerse)
--  
+  
 ## Circuit Link
 https://circuitverse.org/simulator/final-group-10-1f3d5891-95b2-48cf-a142-a93bf1d0a943
 
