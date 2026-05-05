@@ -14,7 +14,7 @@ The system checks:
 - Attendance (A)
 - Assignments (B)
 - Fees (C)
-- Academic Warning (W)
+- Academic Warning (D)
 
 ## Logic
 Eligible = (A AND B AND C) AND (NOT D)
